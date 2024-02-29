@@ -1,6 +1,6 @@
 body {
-  background-image: URL("../images/flying.jpg");
-  background-size cover;
+  background-image: url("../images/flying.jpg");
+  background-size: cover; /* Corrected */
   text-align: center;
   font-family: "Arial", sans-serif;
 }
