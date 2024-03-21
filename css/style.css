@@ -1,8 +1,8 @@
 body {
   background-image: url("../images/flying.jpg");
-  background-size: cover; /* Corrected */
+  background-size: cover;
   text-align: center;
-  font-family: "Arial", sans-serif;
+  font-family: 'Libre Bodoni', serif; 
 }
 
 #formcontainer {
@@ -18,8 +18,8 @@ h1 {
   font-size: 2.5em;
   font-weight: bold;
   margin-top: 0;
-  margin-left: auto; /* Center the h1 text horizontally */
-  margin-right: auto; /* Center the h1 text horizontally */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 p {
@@ -28,15 +28,16 @@ p {
 }
 
 label {
-  display: block;
-  margin-bottom: 5px;
+  display: inline-block;
+  vertical-align: top; 
+  margin-bottom: 10px; 
 }
 
 input[type="text"],
 input[type="email"] {
   width: calc(100% - 20px);
   padding: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   border: 2px solid #ccc;
   border-radius: 5px;
 }
