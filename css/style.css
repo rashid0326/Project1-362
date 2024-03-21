@@ -31,6 +31,7 @@ label {
   display: inline-block;
   vertical-align: top; 
   margin-bottom: 10px; 
+  margin-right: 10px; /* Added spacing between label and input box */
 }
 
 input[type="text"],
@@ -40,6 +41,7 @@ input[type="email"] {
   margin-bottom: 30px;
   border: 2px solid #ccc;
   border-radius: 5px;
+  vertical-align: top; /* Vertically align input boxes */
 }
 
 button {
@@ -64,5 +66,25 @@ button:hover {
   input[type="text"],
   input[type="email"] {
     width: calc(70% - 20px);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* Second required min-width media query styling */
+  body {
+    background-color: lightblue;
+  }
+
+  #formcontainer {
+    max-width: 800px;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    width: calc(60% - 20px);
+  }
+
+  label {
+    margin-bottom: 20px;
   }
 }
