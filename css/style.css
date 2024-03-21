@@ -28,10 +28,8 @@ p {
 }
 
 label {
-  display: inline-block;
-  vertical-align: top; 
+  display: block; /* Change to block to position labels above input boxes */
   margin-bottom: 10px; 
-  margin-right: 10px; /* Added spacing between label and input box */
 }
 
 input[type="text"],
@@ -42,7 +40,6 @@ input[type="tel"] {
   margin-bottom: 30px;
   border: 2px solid #ccc;
   border-radius: 5px;
-  vertical-align: top; /* Vertically align input boxes */
 }
 
 button {
