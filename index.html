@@ -18,20 +18,24 @@
     <fieldset id="formcontainer">
       <legend><h1>Enter Below</h1></legend>
       <div id="namecontainer">
-        <label>Full Name<input id="name" required name="text" type="text" placeholder="John Doe" onchange="changeNameLabelColor();"></label>
+        <label for="name">Full Name</label>
+        <input id="name" required name="text" type="text" placeholder="John Doe" onchange="changeNameLabelColor();">
       </div>
       <div id="phonecontainer">
-        <label>Phone Number: <input id="phone" required name="phone" type="tel" placeholder="1234567890" maxlength="12" onchange="changePhoneLabelColor();"></label>
+        <label for="phone">Phone Number:</label>
+        <input id="phone" required name="phone" type="tel" placeholder="1234567890" maxlength="12" onchange="changePhoneLabelColor();">
       </div>
       <div id="emailcontainer">
-        <label>Email Address: <input id="email" required name="email" type="email" placeholder="jdoe@gmail.com" onchange="changeEmailLabelColor();"></label>
+        <label for="email">Email Address:</label>
+        <input id="email" required name="email" type="email" placeholder="jdoe@gmail.com" onchange="changeEmailLabelColor();">
       </div>
       <div id="altbox"></div>
       <div id="agecheckcontainer">
-        <label>I am at least 21 years old<input type="checkbox" id="age-verification" name="age-verification" value="21"></label>
+        <label for="age-verification">I am at least 21 years old</label>
+        <input type="checkbox" id="age-verification" name="age-verification" value="21">
       </div>
       <div id="button">
-        <button type="submit">Sign up</button>
+        <button type="submit">Join the Raffle</button>
       </div>
     </fieldset>
   </form>
