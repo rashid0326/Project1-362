@@ -35,7 +35,8 @@ label {
 }
 
 input[type="text"],
-input[type="email"] {
+input[type="email"],
+input[type="tel"] {
   width: calc(100% - 20px);
   padding: 10px;
   margin-bottom: 30px;
@@ -64,7 +65,8 @@ button:hover {
   }
 
   input[type="text"],
-  input[type="email"] {
+  input[type="email"],
+  input[type="tel"] {
     width: calc(70% - 20px);
   }
 }
@@ -80,7 +82,8 @@ button:hover {
   }
 
   input[type="text"],
-  input[type="email"] {
+  input[type="email"],
+  input[type="tel"] {
     width: calc(60% - 20px);
   }
 
