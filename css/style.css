@@ -56,6 +56,16 @@ button:hover {
   background-color: #45a049;
 }
 
+#agecheckcontainer {
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Align items vertically */
+  margin-bottom: 20px; /* Add margin to separate from other elements */
+}
+
+#agecheckcontainer label {
+  margin-right: 10px; /* Add spacing between checkbox and text */
+}
+
 @media screen and (min-width: 768px) {
   #formcontainer {
     padding: 30px;
