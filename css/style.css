@@ -28,8 +28,8 @@ p {
 }
 
 label {
-  display: block; /* Change to block to position labels above input boxes */
-  margin-bottom: 10px; 
+  display: block;
+  margin-bottom: 10px;
 }
 
 input[type="text"],
@@ -57,13 +57,19 @@ button:hover {
 }
 
 #agecheckcontainer {
-  display: flex; /* Use flexbox for alignment */
-  align-items: center; /* Align items vertically */
-  margin-bottom: 20px; /* Add margin to separate from other elements */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 #agecheckcontainer label {
-  margin-right: 10px; /* Add spacing between checkbox and text */
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+#agecheckcontainer input[type="checkbox"] {
+  margin-left: 10px;
 }
 
 @media screen and (min-width: 768px) {
